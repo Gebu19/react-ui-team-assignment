@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app-container.light {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+}
+
+.app-container.dark {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
